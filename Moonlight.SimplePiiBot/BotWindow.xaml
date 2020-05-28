@@ -1,0 +1,14 @@
+﻿<Window x:Class="Moonlight.SimplePiiBot.BotWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Moonlight.SimplePiiBot"
+        mc:Ignorable="d"
+        Title="Bot" Height="101.497" Width="308.51">
+    <Grid>
+        <Button Content="Start" HorizontalAlignment="Stretch" Margin="10,10,10,0" VerticalAlignment="Top" Width="181" Command="{Binding StartCommand}"/>
+        <Button Content="Stop" HorizontalAlignment="Stretch" Margin="10,35,10,0" VerticalAlignment="Top" Width="181" Command="{Binding StopCommand}"/>
+
+    </Grid>
+</Window>
